@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{03320A32-5AA7-4B14-B090-1E9355383C69}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="DanielH" ID="{03320A32-5AA7-4B14-B090-1E9355383C69}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="DSFX" ID="{23B009C6-8E15-4C20-B81E-B5A9B94EFF55}" ShortID="798054747">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EC18568A-B747-440B-9BA0-858CFF7DCF9E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F54F7-F4B1-4E95-8DEB-8C6AA6DB8B60}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="player_killed_7" ID="{5E30DF44-AB5E-42EC-A68D-8099A81F3184}">
+							<Language>SFX</Language>
+							<AudioFile>player_killed_7.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="927339353"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="player_killed_7" ID="{5E30DF44-AB5E-42EC-A68D-8099A81F3184}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
