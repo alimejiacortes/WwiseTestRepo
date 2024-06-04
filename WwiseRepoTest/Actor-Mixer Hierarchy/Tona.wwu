@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{304A9D40-E587-479B-9FB8-C8DF07C17E06}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Tona" ID="{304A9D40-E587-479B-9FB8-C8DF07C17E06}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="sintetextura" ID="{33981F43-68A3-4DBE-B702-CEBA1062B276}" ShortID="487074657">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>100</Value>
+							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{5CE2A7AD-B1A1-4F7C-B501-5D15530087D6}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="100"/>
+											<Property Name="Min" Type="Real64" Value="-50"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EC18568A-B747-440B-9BA0-858CFF7DCF9E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F54F7-F4B1-4E95-8DEB-8C6AA6DB8B60}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="MC_D_PHASEY RING" ID="{699A8EC8-4B2B-4DB8-AC91-0B32A54D65CF}">
+							<PropertyList>
+								<Property Name="LoopBegin" Type="Real64" Value="0.229787234042553"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.161702127659574"/>
+								<Property Name="TrimEnd" Type="Real64" Value="1.99999999999999"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>MC_D_PHASEY RING.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="995717905"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{0BDF397F-377D-4CED-BE59-7F7E8055E10F}" ShortID="345247143">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Pitch"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<Custom>
+													<ModulatorLfo Name="Modulator LFO (Custom)" ID="{19A9F852-AC5C-492D-9439-4167670DDF3F}" ShortID="1058120400"/>
+												</Custom>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{A6B61E9F-B8CD-453B-BF8F-CB030CD6805E}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-4026</YPos>
+																<Flags>21</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>-2013</YPos>
+																<Flags>53</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+					<ActiveSourceList>
+						<ActiveSource Name="MC_D_PHASEY RING" ID="{699A8EC8-4B2B-4DB8-AC91-0B32A54D65CF}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
