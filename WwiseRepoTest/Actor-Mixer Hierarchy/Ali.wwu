@@ -5,6 +5,12 @@
 			<ChildrenList>
 				<Sound Name="Drone" ID="{B0612694-03A8-4AA1-9708-9DDCB606161D}" ShortID="1067524469">
 					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>960</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
 						<Property Name="Soundly:FileID" Type="string" Value="SND1323"/>
 						<Property Name="Soundly:FileName" Type="string" Value="https://2-dot-soundly-server.appspot.com/?Type=GetFile&amp;SessionID=1717521631wPTjSKbgLphRfwVTabe&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND1323/L2FwcGhvc3RpbmdfcHJvZC9ibG9icy9BRW5CMlVyUHF3MEwtTTVMb2szYXRDTnBKclJldzY5S0ZVTUhvYWRSZExVbkJQRnpLcG5reURES1JsRWJUMV91d2g5TnA1OTNfLVB3Rkk0VzZkd0lsdmJyXzZLMGZ0R3FhUS5sTGh6YTdGRFp6MTFTNENR"/>
