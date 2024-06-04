@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A346E84E-1A3F-467F-9342-7D6CACEFF00E}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="AMC" ID="{A346E84E-1A3F-467F-9342-7D6CACEFF00E}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Woosh" ID="{5244DEE5-FBED-494B-B1C0-7A5F1852AFF4}" ShortID="10335932">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-350</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
+						<Property Name="Soundly:FileID" Type="string" Value="SND55437"/>
+						<Property Name="Soundly:FileName" Type="string" Value="https://2-dot-soundly-server.appspot.com/?Type=GetFile&amp;SessionID=1717523061w3RIQ1lBiEOZIAYymXd&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND55437/sfy_eRTkbHEAUaYlWiNTuRRsGGYGaoqbcB"/>
+						<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
+						<Property Name="Soundly:HandleStopTime" Type="string" Value="3.191947916666667"/>
+						<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
+						<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
+						<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
+						<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
+						<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
+						<Property Name="Soundly:RenderedFilePath" Type="string" Value="/Users/macintosh/Documents/Soundly Audio/Swooshes, Whoosh, Short, Deep, Dry SND55437.wav"/>
+						<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="96000"/>
+						<Property Name="Soundly:SelectionStartTime" Type="string" Value="0.09083333333333334"/>
+						<Property Name="Soundly:SelectionStopTime" Type="string" Value="0.28"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EC18568A-B747-440B-9BA0-858CFF7DCF9E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F54F7-F4B1-4E95-8DEB-8C6AA6DB8B60}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Swooshes, Whoosh, Short, Deep, Dry SND55437" ID="{9C132162-700D-4F33-9CA0-595B76D9741D}">
+							<PropertyList>
+								<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND55437"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.289935269097222"/>
+								<Property Name="TrimEnd" Type="Real64" Value="0.893745416666667"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Soundly Audio\Swooshes, Whoosh, Short, Deep, Dry SND55437.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="352880119"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Swooshes, Whoosh, Short, Deep, Dry SND55437" ID="{9C132162-700D-4F33-9CA0-595B76D9741D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
