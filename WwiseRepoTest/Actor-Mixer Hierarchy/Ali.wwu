@@ -11,20 +11,6 @@
 								<Value>580</Value>
 							</ValueList>
 						</Property>
-						<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
-						<Property Name="Soundly:FileID" Type="string" Value="SND1323"/>
-						<Property Name="Soundly:FileName" Type="string" Value="https://2-dot-soundly-server.appspot.com/?Type=GetFile&amp;SessionID=1717521631wPTjSKbgLphRfwVTabe&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND1323/L2FwcGhvc3RpbmdfcHJvZC9ibG9icy9BRW5CMlVyUHF3MEwtTTVMb2szYXRDTnBKclJldzY5S0ZVTUhvYWRSZExVbkJQRnpLcG5reURES1JsRWJUMV91d2g5TnA1OTNfLVB3Rkk0VzZkd0lsdmJyXzZLMGZ0R3FhUS5sTGh6YTdGRFp6MTFTNENR"/>
-						<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
-						<Property Name="Soundly:HandleStopTime" Type="string" Value="28.896145833333332"/>
-						<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
-						<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
-						<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
-						<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
-						<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
-						<Property Name="Soundly:RenderedFilePath" Type="string" Value="/Users/macintosh/Documents/Soundly Audio/Designed, Drone, Short, Dark, Ominous Swells SND1323 1.wav"/>
-						<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="96000"/>
-						<Property Name="Soundly:SelectionStartTime" Type="string" Value="0.018333333333333333"/>
-						<Property Name="Soundly:SelectionStopTime" Type="string" Value="0.385"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -37,7 +23,6 @@
 					<ChildrenList>
 						<AudioFileSource Name="Designed, Drone, Short, Dark, Ominous Swells SND1323 1" ID="{4A4CC8EA-6B57-452B-9FDB-BD5431B58E83}">
 							<PropertyList>
-								<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND1323"/>
 								<Property Name="TrimBegin" Type="Real64" Value="0.529762673611111"/>
 								<Property Name="TrimEnd" Type="Real64" Value="11.1250161458333"/>
 							</PropertyList>
