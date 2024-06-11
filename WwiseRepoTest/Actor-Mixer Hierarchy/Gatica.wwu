@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B4EC0E4A-DC64-4D94-AE26-E0B49E1CE04B}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Gatica" ID="{B4EC0E4A-DC64-4D94-AE26-E0B49E1CE04B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="New Sound SFX" ID="{6108C780-1AB7-4A3F-9A53-F579B87E0826}" ShortID="5738045">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EC18568A-B747-440B-9BA0-858CFF7DCF9E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F54F7-F4B1-4E95-8DEB-8C6AA6DB8B60}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="DIGENIUS_percussion_fill_rd_bull" ID="{D164E5A9-F1FA-4117-B592-52DE95B93591}">
+							<Language>SFX</Language>
+							<AudioFile>DIGENIUS_percussion_fill_rd_bull.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="251821557"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="DIGENIUS_percussion_fill_rd_bull" ID="{D164E5A9-F1FA-4117-B592-52DE95B93591}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
