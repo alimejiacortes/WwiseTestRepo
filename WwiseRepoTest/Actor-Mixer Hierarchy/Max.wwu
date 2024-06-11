@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{41A76957-BADF-4E56-B3E1-08F9199705E0}" SchemaVersion="119" RootDocumentID="{44A90986-D7F2-480B-AEBA-8BC13565C0F5}" ParentDocumentID="{44A90986-D7F2-480B-AEBA-8BC13565C0F5}">
+	<AudioObjects>
+		<WorkUnit Name="Max" ID="{41A76957-BADF-4E56-B3E1-08F9199705E0}" OwnerID="{44A90986-D7F2-480B-AEBA-8BC13565C0F5}" PersistMode="Nested">
+			<ChildrenList>
+				<Sound Name="Vehicles, Bicycle, Mountain Bike, Asphalt, Various Speed SND10818 1" ID="{C86C8291-F256-497A-A199-08EB92F4446F}" ShortID="391435953">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-780</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EC18568A-B747-440B-9BA0-858CFF7DCF9E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F54F7-F4B1-4E95-8DEB-8C6AA6DB8B60}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Vehicles, Bicycle, Mountain Bike, Asphalt, Various Speed SND10818 1" ID="{D64130B8-72A7-4298-A8E3-BDCE424BA553}">
+							<Language>SFX</Language>
+							<AudioFile>Vehicles, Bicycle, Mountain Bike, Asphalt, Various Speed SND10818 1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="933712892"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Vehicles, Bicycle, Mountain Bike, Asphalt, Various Speed SND10818 1" ID="{D64130B8-72A7-4298-A8E3-BDCE424BA553}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
