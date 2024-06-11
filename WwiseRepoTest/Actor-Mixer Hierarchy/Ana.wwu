@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D70E71C0-9735-44F5-A1E9-98194A40D89A}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Ana" ID="{D70E71C0-9735-44F5-A1E9-98194A40D89A}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="User Interface, Glitch, Long, Transmission, Crazy 04 SND13551" ID="{F1B70989-EA5A-4C7A-A3C0-81B4BC6F2626}" ShortID="910192918">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-730</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EC18568A-B747-440B-9BA0-858CFF7DCF9E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{100F54F7-F4B1-4E95-8DEB-8C6AA6DB8B60}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="User Interface, Glitch, Long, Transmission, Crazy 04 SND13551" ID="{20EEE78F-DCCC-4AF7-8D80-BED3E7C1DD02}">
+							<Language>SFX</Language>
+							<AudioFile>User Interface, Glitch, Long, Transmission, Crazy 04 SND13551.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="562907099"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="User Interface, Glitch, Long, Transmission, Crazy 04 SND13551" ID="{20EEE78F-DCCC-4AF7-8D80-BED3E7C1DD02}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
